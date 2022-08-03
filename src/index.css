@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    @apply hover:bg-teal-100 rounded-2xl transition ease-in-out hover:scale-95
+}
+.button{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-teal-600 mr-10 px-3 hover:underline text-lg text-black font-bold
+}
+.buttonOrder{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-teal-600 hover:underline text-lg text-black font-bold
+}
+.button_info_delete{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-teal-600 px-3 hover:underline text-lg text-black font-bold
+}
+.button_info{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-teal-600 mr-20 px-7 hover:underline text-lg text-black font-bold
+}
+.button_admin{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-teal-600 px-3 hover:underline text-3xl text-black font-bold mb-4
+}
+.buttons{
+    @apply transition select-none ease-in-out delay-100 hover:scale-110 hover:text-red-600 md:mr-10 md:px-3 hover:underline text-lg text-black font-bold
+}
+.button_buy{
+    @apply text-base select-none transition ease-in-out delay-100 hover:scale-110 hover:text-teal-600  hover:underline md:text-lg text-black font-bold
+}
+.button_auth{
+    @apply select-none ml-auto mr-1 pl-6 mt-6 transition ease-in-out delay-100 hover:scale-110 hover:text-teal-600 hover:underline text-lg text-black font-bold
+}
+.rowTypebar{
+    @apply grid grid-rows-3 
+}
+.inputAuth{
+    @apply pl-2 mt-5 text-xl rounded-lg border-b-4 focus:border-green-400 select-none border-teal-600
+}
+.typeBar{
+    @apply relative inline-flex cursor-pointer items-center w-full px-4 py-2 pr-10 font-medium hover:bg-gray-200 hover:rounded-md focus:bg-blue-500 focus:rounded-md focus:text-white
+}
+.typeBarActive{
+    @apply relative inline-flex cursor-pointer items-center w-full px-4 py-2 pr-10 font-medium focus:bg-blue-500 focus:rounded-md focus:text-white
+}
+.itemCol{
+    @apply flex mr-5 mt-3 bg-white rounded-lg select-none transition hover:scale-110 hover:shadow-xl hover:-translate-y-5 hover:rotate-1 delay-100 ease-in
+}
+.info{
+    @apply px-1 ml-2 mr-2 w-full rounded-md focus:border-b-4 focus:border-cyan-300 my-4 py-1
+}
+.modalItem{
+    @apply transition overflow-y-scroll flex justify-center items-center bg-opacity-30 backdrop-blur-sm bg-black fixed z-50 w-full inset-0 md:h-full
+}
+.modalItemInput{
+    @apply md:text-lg text-base md:w-64 w-52 border-b-4 focus:border-cyan-400 focus:ring-4 focus:ring-cyan-200 rounded-lg shadow-md px-2
+}
+.modalItemLabel{
+    @apply text-2xl mr-4 select-none
+}
+.modalFooter{
+    @apply flex justify-between md:justify-end p-6 rounded-b border-t border-slate-300
+}
+.modalFooterOrder{
+    @apply flex justify-end md:justify-end p-6 rounded-b border-t border-slate-300
+}
+.typeModal{
+    @apply inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 
+    bg-white text-sm md:text-lg font-medium text-gray-700 hover:bg-gray-50 focus:outline-none 
+    focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-cyan-500
+}
+.changeItemModal{
+    @apply inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 
+    bg-white text-sm md:text-lg font-medium text-gray-700 hover:bg-gray-50 focus:outline-none 
+    focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-cyan-500
+}
+.pagination{
+    @apply py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700
+}
+.basketOrder{
+    @apply text-xl font-medium text-white border-2 bg-green-500 hover:bg-green-600 rounded-xl border-green-500/50 hover:border-green-400/75 p-2
+}
